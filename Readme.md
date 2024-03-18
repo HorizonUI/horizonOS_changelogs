@@ -15,6 +15,39 @@
 
 🔧 **New Features and Enhancements, Bug Fixes and Optimizations, with "-" added before every point:**
 
+## March 19, 2024 Changelogs
+
+## Device Side (RMX2061)
+- ⚡️ **Optimized dex**: Boosted performance by optimizing dex files, ensuring smoother operation and faster app loading times.
+- ❌ **Removed Proximity check for FPS Unlock**: Enhanced user experience by removing the proximity check for FPS (Frames Per Second) unlock, streamlining the unlocking process.
+- 🔈 **Enabled Subtle tick vibration**: Introduced subtle tick vibrations, providing users with tactile feedback for a more intuitive interaction.
+- 🔊 **Switched QTI Vibration Hal**: Enhanced vibration functionality by switching to QTI Vibration Hal, improving vibration response and consistency.
+- 🎚️ **Overridden 'ro.product.first_api_level' on init**: Initiated an override of 'ro.product.first_api_level', ensuring compatibility and smooth operation across various API levels.
+- 🔄 **Enabled Refresh rate Tile**: Provided users with quick access to refresh rate settings through the newly enabled Refresh rate Tile, enhancing display customization options.
+- ❌ **Removed force triple frame buffers**: Streamlined system resources by removing force triple frame buffers, optimizing performance and efficiency.
+- 🛑 **Stopped StatsD**: Ceased StatsD operations, potentially improving system stability and reducing resource consumption.
+- 📴 **Enabled Pocket Mode**: Introduced Pocket Mode functionality, preventing accidental interactions by intelligently detecting when the device is in a pocket.
+- 🚀 **Addressed Launcher3 Denial**: Resolved issues related to Launcher3 Denial, ensuring smooth operation and improved stability.
+- 📲 **Switched to Alfea Kernel (Merged Latest tag v4.14.336 EOL, previous v4.14.323)**: Upgraded to the Alfea Kernel, incorporating the latest enhancements and bug fixes for enhanced performance and reliability.
+- 🚀 **Enabled RCU boost**: Boosted system performance by enabling RCU (Read-Copy Update) boost, optimizing resource utilization for improved responsiveness.
+- ⏪ **Reverted "ANDROID: ext4: Optimize match for casefolded encrypted dirs"**: Rolled back changes related to optimizing match for casefolded encrypted directories, potentially addressing compatibility or performance issues.
+- ⏫ **Upstreamed ext4 fixes**: Integrated upstream ext4 fixes to address issues such as use-after-free errors and directory block verification, ensuring system stability and data integrity.
+- 🔧 **Defined qcom,oplus-pps-usbpd-detection in ARM64/dts: pm8150b**: Implemented detection definitions for qcom,oplus-pps-usbpd, enhancing compatibility and functionality.
+
+## Device Side (RM6785)
+- ** Initial Build**
+
+## Source Side
+- 🛠️ **Fixed Dataswitch Tile**: Resolved issues with the Dataswitch Tile, ensuring its proper functionality and reliability.
+- 🎨 **Fixed Colored Statusbar Icons**: Addressed issues with colored status bar icons, ensuring visual consistency and correctness.
+- ➕ **Added Oplus fwb stubs**: Introduced Oplus fwb stubs, expanding framework capabilities and compatibility.
+- 🚫 **Disabled Spoofing Realme Link**: Ceased spoofing Realme Link, ensuring adherence to device compatibility and functionality standards.
+- ➕ **Added More QS Headers and Brightness Slider Styles**: Expanded Quick Settings (QS) headers and brightness slider styles, providing users with more customization options and enhancing visual appeal.
+- 🎨 **Optimized Icon packs, Icon Styles, etc.**: Streamlined icon packs and styles for improved system performance and visual consistency.
+
+## Previous Update
+## March 12, 2024 Changelogs
+
 - 🔧 **Volume Panel Styles Upgrade:** Say goodbye to cringe-worthy designs! Fresh volume panel styles have been introduced, kicking out the outdated ones for a sleek look.
 - 📶 **Perfectly Aligned QS Carrier Text:** Achieved perfection in the alignment of Quick Settings (QS) carrier text for a polished appearance.
 - 🌊 **Wave Fadeout Animation:** Enjoy a cool wave fadeout animation in the QS media player for an enhanced visual experience.
